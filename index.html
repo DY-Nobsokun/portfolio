@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0c0b09" />
+    <meta name="description" content="Nobsokun — a multidisciplinary creative working across posters, video, animation, and UX/UI design." />
+    <title>Nobsokun® — Visual Designer & Creative</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a class="wordmark" href="#home" aria-label="Nobsokun home">Nobsokun<sup>®</sup></a>
+      <nav class="navigation" aria-label="Main navigation">
+        <a class="nav-link active" href="#home">Home<sup>01</sup></a>
+        <a class="nav-link" href="#about">About<sup>02</sup></a>
+        <a class="nav-link" href="#projects">Projects<sup>03</sup></a>
+        <div class="explore">
+          <button class="explore-trigger" aria-expanded="false" aria-controls="explore-menu">Explore <svg viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3"/></svg></button>
+          <div class="explore-menu" id="explore-menu" hidden>
+            <a href="#projects" data-category="Posters">Posters <span>↗</span></a>
+            <a href="#projects" data-category="Video">Video <span>↗</span></a>
+            <a href="#projects" data-category="Animation">Animation <span>↗</span></a>
+            <a href="#projects" data-category="UX/UI">UX/UI <span>↗</span></a>
+          </div>
+        </div>
+      </nav>
+      <div class="header-actions">
+        <a class="contact-icon" href="#contact" aria-label="Contact me"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 8h12l1 12H5L6 8Z"/><path d="M9 10V6a3 3 0 0 1 6 0v4"/></svg></a>
+        <a class="button button-light" href="#contact">Let’s Talk <span class="button-arrow">↗</span></a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-grid-line" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="short-line"></span> Nobsokun <span class="tiny-rocket">↗</span></p>
+          <h1 id="hero-title"><span class="title-row">Strategic <span class="asterisk" aria-hidden="true"><svg viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M44 4h12v35l30-18 6 11-30 18 30 18-6 11-30-18v35H44V61L14 79 8 68l30-18L8 32l6-11 30 18Z"/></svg></span></span><span class="title-row second-row">media <span class="title-dash" aria-hidden="true"></span><em>design</em></span></h1>
+          <p class="hero-description">Turning ideas into visuals. Bringing stories to life through thoughtful design.</p>
+          <a class="button button-orange" href="#projects">Explore My Work <span>↗</span></a>
+        </div>
+        <aside class="hero-profile">
+          <div class="portrait-wrap"><img src="/images/portrait.png" alt="AI-generated creative portrait — placeholder" width="180" height="180" /><span class="portrait-dot" title="Open to creative projects"></span></div>
+          <p>I bring creativity, strategy and empathy to every project. From a single frame to a complete experience, I make ideas feel alive.</p>
+        </aside>
+        <div class="hero-footnote"><span>[ Selected works, 2026 ]</span><span>[ Visual Designer ]</span></div>
+        <a class="scroll-cue" href="#projects"><span>SCROLL TO EXPLORE</span><span class="scroll-arrow">↓</span></a>
+      </section>
+
+      <section class="work-section" id="projects" aria-labelledby="work-title">
+        <div class="section-topline"><p class="eyebrow"><span class="short-line"></span> The creative collection</p><span class="section-index">(01 — 04)</span></div>
+        <div class="work-heading"><h2 id="work-title">Selected <em>work.</em></h2><p>A mix of mediums.<br>One curious mind.</p></div>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter active" data-filter="All" aria-pressed="true">All work <sup>04</sup></button>
+          <button class="filter" data-filter="Posters" aria-pressed="false">Posters <sup>01</sup></button>
+          <button class="filter" data-filter="Video" aria-pressed="false">Video <sup>01</sup></button>
+          <button class="filter" data-filter="Animation" aria-pressed="false">Animation <sup>01</sup></button>
+          <button class="filter" data-filter="UX/UI" aria-pressed="false">UX/UI <sup>01</sup></button>
+        </div>
+        <p class="sample-note">A space for your next great project. Preview concepts shown below.</p>
+        <div class="project-grid" aria-live="polite">
+          <button class="project-card" data-type="Posters" data-title="The art of expression" data-description="A home for bold typography, visual experiments, and your poster collection. Replace this preview with your own artwork, project story, and credits.">
+            <div class="project-art poster-art"><span class="art-label">VISUAL STUDY / 001</span><span class="poster-word">MAKE<br><i>some</i><br>NOISE.</span><span class="poster-orbit" aria-hidden="true"><svg viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M44 4h12v35l30-18 6 11-30 18 30 18-6 11-30-18v35H44V61L14 79 8 68l30-18L8 32l6-11 30 18Z"/></svg></span><span class="art-bottom">IDEAS DESERVE TO BE SEEN.</span><span class="project-open" aria-hidden="true">↗</span></div>
+            <div class="project-caption"><h3>The art of expression</h3><span>Posters / Graphic design</span></div>
+          </button>
+          <button class="project-card" data-type="Video" data-title="Stories in motion" data-description="A space for your films, edits, and visual storytelling. Add a video file or showreel link and tell the story behind the frames.">
+            <div class="project-art video-art"><span class="art-label">A STUDY IN PERSPECTIVE</span><div class="cinema-circle"></div><span class="video-word">Between<br><em>the frames.</em></span><span class="play-icon" aria-hidden="true"><svg viewBox="0 0 20 20" fill="currentColor"><path d="m6 3 11 7-11 7Z"/></svg></span><span class="art-bottom">MOTION PICTURE / PREVIEW CONCEPT</span><span class="project-open" aria-hidden="true">↗</span></div>
+            <div class="project-caption"><h3>Stories in motion</h3><span>Video / Visual storytelling</span></div>
+          </button>
+          <button class="project-card" data-type="Animation" data-title="A little movement" data-description="Bring your animation and motion design projects together here. Add your animated work, process sketches, and the small details that make it move.">
+            <div class="project-art animation-art"><span class="art-label">EXPERIMENTS IN MOTION / 003</span><div class="motion-flower" aria-hidden="true"><svg viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M44 4h12v35l30-18 6 11-30 18 30 18-6 11-30-18v35H44V61L14 79 8 68l30-18L8 32l6-11 30 18Z"/></svg></div><span class="animation-word">Never<br><em>stand still.</em></span><span class="art-bottom">FORM. RHYTHM. PLAY.</span><span class="project-open" aria-hidden="true">↗</span></div>
+            <div class="project-caption"><h3>A little movement</h3><span>Animation / Motion design</span></div>
+          </button>
+          <button class="project-card" data-type="UX/UI" data-title="Made for people" data-description="A place for your digital product case studies. Share the problem, your research and design process, and the interfaces you created to make things easier for people.">
+            <div class="project-art ui-art"><span class="art-label">DIGITAL EXPERIENCES / 004</span><div class="ui-window"><div class="ui-topbar"><strong>mood.</strong><span>Find your everyday balance ↗</span></div><div class="ui-window-body"><span class="ui-pill">A MOMENT FOR YOU</span><strong>A little space.<br>A better <em>day.</em></strong><span class="ui-faux-button">Find your flow ↗</span><div class="ui-sun"></div></div></div><span class="art-bottom">THOUGHTFUL BY DESIGN.</span><span class="project-open" aria-hidden="true">↗</span></div>
+            <div class="project-caption"><h3>Made for people</h3><span>UX/UI / Digital experiences</span></div>
+          </button>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <p class="eyebrow"><span class="short-line"></span> A little about me</p>
+        <div class="about-body"><h2 id="about-title">Different mediums.<br>Same <em>curiosity.</em><span class="orange-star" aria-hidden="true"><svg viewBox="0 0 100 100" fill="currentColor" aria-hidden="true"><path d="M44 4h12v35l30-18 6 11-30 18 30 18-6 11-30-18v35H44V61L14 79 8 68l30-18L8 32l6-11 30 18Z"/></svg></span></h2><div class="about-copy"><p>I’m Nobsokun, a multidisciplinary creative exploring the space between design and storytelling.</p><p>From posters and moving images to thoughtful digital experiences, I love turning a fresh perspective into something you can see, feel, and interact with.</p><div class="skill-tags"><span>Graphic design</span><span>Video</span><span>Animation</span><span>UX/UI</span></div></div></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <p class="eyebrow"><span class="short-line"></span> Have something in mind?</p><div class="contact-row"><h2 id="contact-title">Let’s make<br><em>something great.</em></h2><button class="contact-circle" id="contact-open" aria-label="Open contact information">↗</button></div><p class="contact-note">Open to collaborations, interesting ideas, and new possibilities.</p>
+      </section>
+    </main>
+    <footer><a class="wordmark" href="#home">Nobsokun<sup>®</sup></a><span>© <span id="year">2026</span> Nobsokun. Made with intention.</span><a href="#home">Back to top ↑</a></footer>
+
+    <dialog id="project-dialog" aria-labelledby="dialog-title"><button class="dialog-close" aria-label="Close project">×</button><span class="dialog-label" id="dialog-category"></span><h2 id="dialog-title"></h2><p id="dialog-description"></p><span class="dialog-footnote">PREVIEW CONCEPT — YOUR WORK GOES HERE</span></dialog>
+    <dialog id="contact-dialog" aria-labelledby="contact-dialog-title"><button class="dialog-close" aria-label="Close contact information">×</button><span class="dialog-label">LET’S CONNECT</span><h2 id="contact-dialog-title">Good things start<br>with a <em>hello.</em></h2><p>Contact details are coming soon. This portfolio is being prepared for Nobsokun’s work.</p><p class="dialog-footnote">Add your email and social links to make this space your own.</p></dialog>
+  </body>
+</html>
