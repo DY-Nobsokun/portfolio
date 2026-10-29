@@ -19,10 +19,10 @@
         <div class="explore">
           <button class="explore-trigger" aria-expanded="false" aria-controls="explore-menu">Explore <svg viewBox="0 0 12 12" aria-hidden="true"><path d="m3 4.5 3 3 3-3"/></svg></button>
           <div class="explore-menu" id="explore-menu" hidden>
-            <a href="#projects" data-category="Posters">Posters <span>↗</span></a>
-            <a href="#projects" data-category="Video">Video <span>↗</span></a>
+            <a href="/posters.html">Posters <span>↗</span></a>
+            <a href="/video.html">Video <span>↗</span></a>
             <a href="#projects" data-category="Animation">Animation <span>↗</span></a>
-            <a href="#projects" data-category="UX/UI">UX/UI <span>↗</span></a>
+            <a href="/ux-ui.html">UX/UI <span>↗</span></a>
           </div>
         </div>
       </nav>
@@ -46,7 +46,57 @@
           <p>I bring creativity, strategy and empathy to every project. From a single frame to a complete experience, I make ideas feel alive.</p>
         </aside>
         <div class="hero-footnote"><span>[ Selected works, 2026 ]</span><span>[ Visual Designer ]</span></div>
-        <a class="scroll-cue" href="#projects"><span>SCROLL TO EXPLORE</span><span class="scroll-arrow">↓</span></a>
+        <a class="scroll-cue" href="#clients"><span>SCROLL TO EXPLORE</span><span class="scroll-arrow">↓</span></a>
+      </section>
+
+      <section class="clients-section" id="clients" aria-labelledby="clients-title">
+        <div class="clients-heading">
+          <span class="clients-orb" aria-hidden="true"></span>
+          <p class="clients-label">Our clients</p>
+          <h2 id="clients-title"><span>Brands that trusted me</span> to craft their digital presence with clarity, empathy, and precision</h2>
+        </div>
+        <div class="phone-carousel" role="region" aria-roledescription="carousel" aria-label="Creative showcase">
+          <div class="phone-stage" id="phone-stage">
+            <article class="phone-card" data-slot="-2" aria-label="1 of 5: Outdoor stories">
+              <div class="phone-device"><div class="phone-screen"><img src="/images/showcase-hiking.jpg" alt="Mountain landscape at sunset" width="640" height="960" loading="lazy" /><div class="phone-status" aria-hidden="true"><span>9:41</span><span>▮▮▮ ▰</span></div><div class="phone-island" aria-hidden="true"></div><div class="phone-play" aria-hidden="true">▶</div><div class="phone-home" aria-hidden="true"></div></div></div>
+            </article>
+            <article class="phone-card" data-slot="-1" aria-label="2 of 5: Everyday rituals">
+              <div class="phone-device"><div class="phone-screen"><img src="/images/showcase-skincare.jpg" alt="Skincare bottles and natural ingredients" width="640" height="960" loading="lazy" /><div class="phone-status" aria-hidden="true"><span>9:41</span><span>▮▮▮ ▰</span></div><div class="phone-island" aria-hidden="true"></div><div class="phone-play" aria-hidden="true">▶</div><div class="phone-home" aria-hidden="true"></div></div></div>
+            </article>
+            <article class="phone-card phone-card-fitness" data-slot="0" aria-label="3 of 5: Find your flow">
+              <div class="phone-device"><div class="phone-screen"><div class="phone-status" aria-hidden="true"><span>9:41</span><span>▮▮▮ ▰</span></div><div class="phone-island" aria-hidden="true"></div><div class="fitness-top"><span class="fitness-avatar">S</span><span class="fitness-streak">🔥 124</span></div><div class="fitness-score"><span>🔥</span><strong>58</strong><small>YOUR DAILY ENERGY</small></div><div class="fitness-video"><img src="/images/showcase-fitness.jpg" alt="Woman stretching during an outdoor workout" width="640" height="960" loading="lazy" /><div class="phone-play" aria-hidden="true">▶</div><div class="fitness-progress" aria-hidden="true"><span></span><small>0:24 / 1:08</small></div></div><div class="phone-home" aria-hidden="true"></div></div></div>
+            </article>
+            <article class="phone-card" data-slot="1" aria-label="4 of 5: Places to discover">
+              <div class="phone-device"><div class="phone-screen"><img src="/images/showcase-travel.jpg" alt="Tropical coast with turquoise water" width="640" height="960" loading="lazy" /><div class="phone-status" aria-hidden="true"><span>9:41</span><span>▮▮▮ ▰</span></div><div class="phone-island" aria-hidden="true"></div><div class="phone-play" aria-hidden="true">▶</div><div class="phone-home" aria-hidden="true"></div></div></div>
+            </article>
+            <article class="phone-card phone-card-music" data-slot="2" aria-label="5 of 5: After hours">
+              <div class="phone-device"><div class="phone-screen"><img src="/images/showcase-music.jpg" alt="Performer at a microphone under stage lighting" width="640" height="960" loading="lazy" /><div class="phone-status" aria-hidden="true"><span>9:41</span><span>▮▮▮ ▰</span></div><div class="phone-island" aria-hidden="true"></div><div class="phone-play" aria-hidden="true">▶</div><div class="phone-home" aria-hidden="true"></div></div></div>
+            </article>
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-arrow" id="phone-previous" aria-label="Previous phone" aria-controls="phone-stage">←</button>
+            <span class="carousel-position" aria-live="off">03 / 05</span>
+            <button class="carousel-arrow" id="phone-next" aria-label="Next phone" aria-controls="phone-stage">→</button>
+            <button class="carousel-toggle" id="phone-toggle" aria-pressed="false">Pause rotation</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section" id="skills" aria-labelledby="skills-title">
+        <div class="skills-heading">
+          <h2 id="skills-title">Skills</h2>
+        </div>
+        <div class="skills-marquee">
+          <div class="skills-track">
+            <ul class="skills-group">
+              <li class="skill-item"><span class="skill-icon skill-illustrator" aria-hidden="true">Ai</span><span>Illustrator</span></li>
+              <li class="skill-item"><span class="skill-icon skill-photoshop" aria-hidden="true">Ps</span><span>Photoshop</span></li>
+              <li class="skill-item"><span class="skill-icon skill-premiere" aria-hidden="true">Pr</span><span>Premiere Pro</span></li>
+              <li class="skill-item"><span class="skill-icon skill-after-effects" aria-hidden="true">Ae</span><span>After Effects</span></li>
+              <li class="skill-item"><span class="skill-icon skill-canva" aria-hidden="true">Canva</span><span>Canva</span></li>
+            </ul>
+          </div>
+        </div>
       </section>
 
       <section class="work-section" id="projects" aria-labelledby="work-title">
